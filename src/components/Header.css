@@ -16,20 +16,6 @@
   max-width: 60px;
 }
 
-.navbar__links {
-  display: none !important;
-}
-
-.navbar__menu-btn {
-  display: block !important;
-  color: #F1EFEF !important;
-}
-
-.navbar__links>button {
-  color: #FFF;
-  margin-inline: .8rem;
-}
-
 .btn-login {
   background: var(--gradient-btn) !important;
 }
@@ -41,13 +27,5 @@
 @media screen and (min-width: 768px) {
   .header {
     padding: .6rem 1.2rem;
-  }
-
-  .navbar__links {
-    display: block !important;
-  }
-
-  .navbar__menu-btn {
-    display: none !important;
   }
 }
